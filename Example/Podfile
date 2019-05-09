@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VolumeOverlayWindow_Example' do
+  pod 'VolumeOverlayWindow', :path => '../'
+
+  target 'VolumeOverlayWindow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

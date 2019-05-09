@@ -1,0 +1,22 @@
+{
+  "name": "VolumeOverlayWindow",
+  "version": "0.1.0",
+  "summary": "A short description of VolumeOverlayWindow.",
+  "description": "Replace the default Volume Overlay.",
+  "homepage": "https://github.com/okanoryo/VolumeOverlayWindow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "okanoryo": "llcoolryo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/okanoryo/VolumeOverlayWindow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "VolumeOverlayWindow/Classes/**/*"
+}

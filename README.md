@@ -10,6 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 11 or above
+- Xcode 10 or above
+- Swift 4.0
 
 ## Installation
 
@@ -18,6 +21,16 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'VolumeOverlayWindow'
+```
+
+## Usage
+Using the volume overlay is just drag and drop. Simply call:
+```swift
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        // It is acquired by 'viewWillLayoutSubviews' because SafedAreaInsets can not be acquired by viewdidload
+        VolumeOverlay.shared.load()
+    }
 ```
 
 ## Author

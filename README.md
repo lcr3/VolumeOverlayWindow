@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/VolumeOverlayWindow.svg?style=flat)](https://cocoapods.org/pods/VolumeOverlayWindow)
 [![Platform](https://img.shields.io/cocoapods/p/VolumeOverlayWindow.svg?style=flat)](https://cocoapods.org/pods/VolumeOverlayWindow)
 
+## Screenshots
+<img src="https://raw.githubusercontent.com/okanoryo/VolumeOverlayWindow/add_screenshots/Example/Image/iPhone5.gif" width=300>
+<img src="https://raw.githubusercontent.com/okanoryo/VolumeOverlayWindow/add_screenshots/Example/Image/iPhoneX.gif" width=300>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
